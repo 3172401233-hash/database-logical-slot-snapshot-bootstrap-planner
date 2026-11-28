@@ -1,0 +1,12 @@
+{
+  "name": "database-logical-slot-snapshot-bootstrap-planner",
+  "version": "1.0.0",
+  "description": "规划逻辑复制槽在基础快照之前创建时的 bootstrap：计算快照后消费起点、每表恢复点、重复范围与安全切换条件（全部状态为模拟）",
+  "type": "module",
+  "engines": {
+    "node": ">=24.16.0"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
